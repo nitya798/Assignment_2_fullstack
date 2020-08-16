@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical-8</title>
+    <style>
+        .container{
+            width: 1300px;
+           
+            margin: 0px auto;
+        }
+        
+
+
+
+        #header{
+            background-color: grey;
+           
+            height: 50px;
+            justify-content: center;
+            align-items: center;
+            margin: 10px;
+            display: flex;
+            font-size: x-large;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            position: sticky;
+            top: 0px;
+        }
+        
+
+
+
+
+
+        #header ul{
+            display: flex;
+            align-items: center;
+           
+
+
+        }
+       
+
+        #header ul li{
+            list-style: none;
+           
+            
+        }
+        #header ul li a{
+        display: block;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        align-items: center;
+       margin-left: 50px;
+        padding-left: 5px;
+        padding-right: 5px;
+        text-decoration: none;
+        color: white;
+        }
+        #header ul li a:hover{
+        color: black;
+        background-color: white;
+        }
+ 
+        #Banner{
+            background-color: skyblue;
+           
+           height: 560px;
+           
+           
+          
+           display: flex;
+           font-size: x-large;
+           margin-bottom: 150px;
+           margin-top: 10px;
+           margin-left: 10px;
+           margin-right: 10px;
+           color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: url(../images/Practical-8.1.jpg);
+        }
+        #Banner h1{
+            text-align: left;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 200%;
+            color: white;
+           margin-top: 20px;
+           margin-left: 10px;
+        }
+        
+        #section1{
+            background-color: white;
+            height: 400px;
+            justify-content: center;
+          
+           margin: 10px;
+           display: flex;
+           font-size: x-large;
+        }
+        #pic1{
+           background-image: url(../images/Practical-8.2.png);
+           margin-left: 20px;
+           margin-right: 20px;
+            float: left;
+            display: flex;
+            align-items: center;
+            width: 400px;
+            border-radius: 50%;
+            height: 250px;
+        }
+        #pic2{
+            background-color: orange;
+           margin-left: 20px;
+           margin-right: 20px;
+            float: left;
+            border-radius: 50%;
+            width: 400px;
+            background-image: url(../images/Practical-8.3.png);
+            height: 250px;
+        }
+        #pic3{
+            background-color: orange;
+           margin-left: 20px;
+           margin-right: 20px;
+            float: left;
+            border-radius: 50%;
+            width: 400px;
+            background-image: url(../images/Practical-8.4.png);
+            height: 250px;
+        }
+        #pic4{
+            background-color: orange;
+           margin-left: 20px;
+           margin-right: 20px;
+            float: left;
+            border-radius: 50%;
+            width: 400px;
+            background-image: url(../images/Practical-8.5.png);
+            height: 250px;
+        }
+        #section2{
+            background-color: white;
+            height: 500px;
+           
+           
+          
+           
+           
+        }
+      #main-content{
+          width: 48.5%;
+          background-color: gray;
+          margin: 10px;
+         
+          
+          float: left;
+          height: 350px;
+        
+         color: white;
+            font-family: Arial, Helvetica, sans-serif;
+      }
+      #articles{
+        height: 350px;
+
+      }
+      #article-1{
+       
+         
+          width: 48.4%;
+          float: right;
+          height: 32%;
+         margin-left: 10px;
+         margin-right: 10px;
+         margin-bottom: 10.5px;
+         margin-top: 10.5px;
+          justify-content: center;
+          
+        
+         display: flex;
+         color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: url(../images/Practical-8.6.png);
+      }
+      #article-2{
+       
+          width: 48.4%;
+          float: right;
+          height: 31%;
+         margin-left: 10px;
+         margin-bottom: 10.5px;
+         margin-right: 10px;
+         justify-content: center;
+         
+         display: flex;
+         color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: url(../images/Practical-8.7.png);
+      }
+      #article-3{
+        
+          width: 48.4%;
+          float: right;
+          height: 31%;
+          margin-left: 10px;
+         margin-bottom: 10.5px;
+         margin-right: 10px;
+         justify-content: center;
+         display: flex;
+         color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: url(../images/Practical-8.8.png);
+      }
+      #section3{
+            background-color: white;
+            height: 550px;
+            
+           
+           margin: 10px;
+           display: flex;
+           font-size: x-large;
+        }
+        #box{
+            background-color: white;
+            padding: 15px;
+           
+            float:left;
+            width:20%;
+           margin-left: 15px;
+           margin-right: 15px;
+            float: left;
+           
+            width: 20%;
+        }
+        #box  a{
+            display:block;
+            text-align: center;
+            margin-left:auto;
+            margin-right: auto;
+            background-color: red;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: x-large;
+        }
+        #box img{
+            width: 100%;
+           border-radius: 5px;
+        }
+        #box p{
+            text-align: justify;
+            margin: 10px;
+            font-size: large;
+        }
+        #box h4{
+            margin: 10px;
+            font-size: larger;
+        }
+        #box a:hover{
+           background-color: blue;
+           
+       }
+        #section4{
+            background-color: white;
+            height: 100px;
+
+        }
+        #footer{
+            background-color: violet;
+           
+            height: 90px;
+            justify-content: center;
+            padding-top: 10px;
+            margin-top: 10px;
+            margin-left: 10px;
+            margin-right: 10px;
+            display: flex;
+          font-size: medium;
+           color: black;
+           
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #footer p{
+            justify-content: center;
+           
+            display: flex;
+           
+        }
+       
+
+    </style>
+</head>
+<body>
+   <div class="container">
+       <a name="top"></a>
+       <nav id="header">
+           <ul>
+               <li><a href="#" style="margin-left: 10px; padding-left: 5px;">HOME</a></li>
+               <li><a href="Practical-8.html#section-2">ABOUT US</a></li>
+               <li><a href="Practical-8.html#section-1">TEAM</a></li>
+               <li><a href="Practical-8.html#section-3">TECHNOLOGIES</a></li>
+               <li><a href="Practical-8.html#section-4" style="margin-right: 50px;">CONTACT</a></li>
+           </ul>
+        </nav>
+       <div id="Banner">
+          <h1>PRACTICAL - 8</h1>
+       </div>
+       <a name="section-1"></a>
+    <h2 style="text-align: center; font-size: xx-large; font-family: Arial, Helvetica, sans-serif;">Team Members</h2>
+       <div id="section1">
+           <div id="pic1"></div>
+           <div id="pic2"></div>
+           <div id="pic3"></div>
+           <div id="pic4"></div>
+
+      </div>
+      <a name="section-2"></a>
+      <h2 style="text-align: center; font-size: xx-large; font-family: Arial, Helvetica, sans-serif;">About Us</h2>
+       <div id="section2">
+           <div id="main-content"><b style="font-size: xx-large; padding: 10px;">About Projects</b>
+            <p style="padding: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam 
+                corrupti magnam dolores numquam, expedita perspiciatis fugit! Voluptatum nihil sequi 
+                facere maxime tempore odit ab debitis a quis. Deserunt ipsum sed deleniti, accusantium, 
+                quia pariatur nobis quam enim voluptates excepturi maxime placeat odit! Eius veniam reprehenderit 
+                et excepturi? Sapiente omnis dolore officia quibusdam quis hic laudantium natus explicabo ab,
+                 ut tempora, optio obcaecati repellat asperiores eum saepe maiores, vero quasi? Quisquam, totam
+                  eaque ullam iure non fuga, modi cum minima, eos perspiciatis deserunt quam. Ullam eos laboriosam
+                   eius fuga natus a animi, accusantium minima, nulla accusamus debitis error veritatis, dicta libero
+                    eum repudiandae tempora numquam voluptate. In quas cupiditate autem repudiandae, quod consequatur
+                     nulla nemo, necessitatibus quaerat, assumenda minus eius quia tenetur consectetur ratione ut. 
+                     Consequuntur dolores eum dolor explicabo architecto maiores quo eius consectetur. Dolores fugit
+                      modi voluptates iure corrupti eveniet, officiis velit nihil,
+                 illum ab quo ut voluptatibus sunt.</p>
+           </div>
+           <div id="articles">
+           <div id="article-1" style="color: black; font-size: xx-large;"><b>Project-1</b></div>
+           <div id="article-2" style="color: black; font-size: xx-large;"><b>Project-2</b></div>
+           <div id="article-3" style="color: black; font-size: xx-large;"><b>Project-3</b></div>
+        </div>
+
+      </div>
+      <a name="section-3"></a>
+      <h2 style="text-align: center; font-size: xx-large; font-family: Arial, Helvetica, sans-serif;">Technologies Used</h2>
+       <div id="section3">
+           <div id="box">
+            <img src="../images/Practical-5.3.png">
+            <h4 style="text-align: center;">Introduction to HTML</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero distinctio non fugiat eligendi similique. Reiciendis debitis nulla laborum nam reprehenderit.</p>
+            <a href="Practical-5.1.html">Read More</a>
+           
+           </div>
+           <div id="box">
+            <img src="../images/Practical-6.2.png">
+            <h4 style="text-align: center;">Introduction to CSS</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero distinctio non fugiat eligendi similique. Reiciendis debitis nulla laborum nam reprehenderit.</p>
+            <a href="Practical-5.2.html" style="align-content: center;">Read More</a>
+           </div>
+           <div id="box">
+            <img src="../images/Practical-6.3.png">
+            <h4 style="text-align: center;">Introduction to JavaScript</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero distinctio non fugiat eligendi similique. Reiciendis debitis nulla laborum nam reprehenderit.</p>
+            <a href="Practical-5.3.html" style="align-content: center;">Read More</a>
+           </div>
+           <div id="box">
+               <img src="../images/Practical-6.4.png">
+        <h4 style="text-align: center;">Introduction to Bootstrap</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero distinctio non fugiat eligendi similique. Reiciendis debitis nulla laborum nam reprehenderit.</p>
+        <a href="Practical-5.4.html" style="align-content: center;">Read More</a>
+           </div>
+       </div>
+       <a name="section-4"></a>
+       <h2 style="text-align: center; font-size: xx-large; font-family: Arial, Helvetica, sans-serif;">Contact</h2>
+       <div id="section4">
+           <div id="footer"><pre style="font-family: Arial, Helvetica, sans-serif;">       Website Template for Practical-8 &copy; <a href="https://www.beta-labs.in/">Beta-labs</a>          <br>
+                        <a href="Practical-8.html#top" style="padding: 40px;">Back to top</a></pre></div>
+       </div>
+   </div>
+</body>
+</html>
