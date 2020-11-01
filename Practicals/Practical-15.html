@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical-15</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20pt;
+            background: rgb(195, 173, 224); 
+        }
+        .main{
+            margin: 100px auto;
+            text-align: center;
+        }
+        #minus, #plus{
+            padding: 20px;
+            margin: 0px 30px 0px 30px;
+            background: transparent;
+            text-shadow: 1px 1px 1px #202020;
+            font-size: 18pt;
+            border: 1px solid rgb(95, 5, 20);
+            color: lightblue;
+        }
+        #clickme{
+            padding: 20px;
+            font-size: 18pt;
+            background: rgb(221, 11, 25); 
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h2>COUNTER</h2>
+        <button id="minus">-</button>
+        <button id="clickme">0</button>
+        <button id="plus">+</button>
+
+        <script>
+            var button1 = document.getElementById("minus");
+            var button = document.getElementById("clickme");
+            var button2 = document.getElementById("plus");
+            var count = 0;
+
+            updateCount();
+            function updateCount() {
+                button.innerHTML = count;
+                if (count <= 0) button1.style.color = "grey";
+                else button1.style.color = "black";
+            }
+
+            button2.addEventListener("click", () => {
+                count++;
+                updateCount();
+            });
+
+            button1.addEventListener("click", () => {
+                if(count <= 0) {
+                    button1.disable = true;
+                } 
+                else {
+                    count--;
+                    button1.disable = false;
+                }
+                updateCount();
+            });
+        </script>
+</body>
+</html>
