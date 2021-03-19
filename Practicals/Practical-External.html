@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical-external</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <style>
+        
+        .div1{
+            width: 1350px;
+           
+            margin: 0px auto;
+        }
+        #header{
+            background-color:white;
+           
+            height: 50px;
+            justify-content: center;
+            align-items: center;
+            margin: 10px;
+            display: flex;
+            font-size: x-large;
+            color: red;
+            font-family: Arial, Helvetica, sans-serif;
+            position: sticky;
+            top: 0px;
+        }
+        
+        #header ul{
+            display: flex;
+            align-items: center;
+           
+
+
+        }
+       
+
+        #header ul li{
+            list-style: none;
+            padding: 5px;
+            
+        }
+        #header ul li a{
+        display: block;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        align-items: center;
+       margin-left: 50px;
+        padding-left: 5px;
+        padding-right: 5px;
+        text-decoration: none;
+        color: red;
+        }
+        #header ul li a:hover{
+        color: white;
+        background-color: red;
+        }
+        .divi2{
+            width:1350px;
+            height:590px
+        }
+        .div2{
+            width: 700px;
+            height: 580px;
+            float: left;
+        }
+        .div3{
+            width: 650px;
+            height: 580px;
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <a name="top"></a>
+        <nav id="header">
+            <ul><li><a href="#">HOME</a></li>
+                
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">DEPARTMENTS</a></li>
+                <li><a href="#">APPOINTMENT</a></li>
+                <li><a href="#">DOCTORS</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </nav>
+        <div class="divi2">
+        <div class="div2">
+            <img src="../images/external.png">
+        </div>
+    <div class="div3">
+        <form class="row g-3">
+            <div class="col-md-6">
+              <label for="inputEmail4" class="form-label">Email</label>
+              <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-md-6">
+              <label for="inputPassword4" class="form-label">Password</label>
+              <input type="password" class="form-control" id="inputPassword4">
+            </div>
+            <div class="col-12">
+              <label for="inputAddress" class="form-label">Address</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            </div>
+            <div class="col-12">
+              <label for="inputAddress2" class="form-label">Address 2</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+            </div>
+            <div class="col-md-6">
+              <label for="inputCity" class="form-label">City</label>
+              <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="col-md-4">
+              <label for="inputState" class="form-label">State</label>
+              <select id="inputState" class="form-select">
+                <option selected>Choose...</option>
+                <option>...</option>
+              </select>
+            </div>
+            <div class="col-md-2">
+              <label for="inputZip" class="form-label">Zip</label>
+              <input type="text" class="form-control" id="inputZip">
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Check me out
+                </label>
+              </div>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Sign in</button>
+            </div>
+          </form>
+    </div>
+</div>
+    </div>
+    
+</body>
+</html>
